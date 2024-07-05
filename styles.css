@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav {
+    width: 100%;
+    background-color: green;
+    justify-content: space-between;
+    border-style: ridge;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 23%;
+    display:inline-block;
+
+}
+.nav a.active {
+    background-color: red;
+    color: green;
+}
+.nav a:hover {
+    background-color: red;
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+.established {
+    font-style: italic;
+}
+h1, h2, p {
+    text-align: center;
+}
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: ridge;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.flavour, .dessert, .beverage {
+    text-align: left;
+    width: 50%;
+}
+.price {
+    text-align: right;
+    width: 40%;
+}
+
+.item p {
+    display: inline-block;
+}
+.footer {
+    font-size: 20px;
+    block-size: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    background-color: green;
+    border-style: ridge;
+    overflow: auto;
+}
